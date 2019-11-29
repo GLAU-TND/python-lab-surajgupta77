@@ -12,8 +12,8 @@ except ValueError as e:
 class Attributes():
     pass
 try:
-    print(object.attribute)
-except ArithmeticError as e:
+    print (object.attribute)
+except AttributeError as e:
     print('error handled',e)
 
 
